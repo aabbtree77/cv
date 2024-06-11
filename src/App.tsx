@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <div className="bg-neutral">
-      <div className="mx-auto w-11/12 lg:w-3/5 gap-4 lg:gap-24 flex flex-col items-center text-gray-400">
+      <div className="mx-auto flex w-11/12 flex-col items-center gap-4 text-gray-400 lg:w-3/5 lg:gap-24">
         <Header />
         <DX />
         <Portfolio />

@@ -30,19 +30,21 @@ const PortfolioTimeline: React.FC = () => {
             href="https://github.com/ugurkellecioglu/next-14-lucia-auth-postgresql-drizzle-typescript-example/issues/1"
           >
             Next.js
-          </a>{", "}
+          </a>
+          {", "}
           <a
             className="link link-accent"
             href="https://github.com/edwardspresume/sveltekit-lucia-auth-v3-example/issues/3"
           >
             SvelteKit
-          </a>{", "}
+          </a>
+          {", "}
           and{" "}
           <a
             className="link link-accent"
             href="https://github.com/aabbtree77/session-auth-starter"
           >
-          Astro
+            Astro
           </a>{" "}
           as unreliable.
         </div>
@@ -83,7 +85,7 @@ const PortfolioTimeline: React.FC = () => {
             lawlt.eu
           </a>
           , for a lawyer who speaks nine languages. Tailwind CSS, a bit of Go,
-          DeepL, Porkbun.com and github pages.
+          DeepL, Porkbun, and Github Pages.
         </div>
         <hr />
       </li>
@@ -125,8 +127,7 @@ const PortfolioTimeline: React.FC = () => {
           >
             this link
           </a>
-          . MongoDB Atlas, render.com, github pages, ipify.org, and geoip-lite
-          API for the GeoLite data from MaxMind.
+          . MongoDB Atlas, Render, Github Pages, ipify API, and geoip-lite API.
         </div>
         <hr />
       </li>
@@ -158,9 +159,9 @@ const PortfolioTimeline: React.FC = () => {
           </div>
           A joint work with Saulius Rakauskas (Infovega): A remote plant
           watering system with ESP32, MicroPython, Mosquitto MQTT, Ubuntu and
-          awl VPN based on golibp2p. I wrote software which removed the need for
-          paid 3rd party services. We also did numerous tests of hole punching
-          through layers of routers.
+          awl VPN based on golibp2p. I wrote software which replaced paid 3rd
+          party services. We also did numerous tests with Wi-Fi resilience and
+          hole punching through layers of routers.
         </div>
         <hr />
       </li>
@@ -224,7 +225,7 @@ const PortfolioTimeline: React.FC = () => {
           </div>
           A joint work with Saulius Rakauskas (Infovega). We have been
           maintaining a real factory machine since February 2020 (last update
-          February 2024). I wrote a microcontroller code in C (avr-gcc).
+          February 2024). I wrote microcontroller code in C (avr-gcc).
         </div>
         <hr />
       </li>

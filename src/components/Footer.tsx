@@ -2,10 +2,8 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-neutral text-neutral-content p-4 text-center">
-      <div className="max-w-screen-lg mx-auto">
-        <p>Last update: June 2024</p>
-      </div>
+    <footer className="max-w-screen-lg mx-auto p-4 text-xl">
+      <p>Last update: June 2024</p>
     </footer>
   );
 };

@@ -1,10 +1,14 @@
 ## Introduction
 
-This is an online cv (portfolio) page: TypeScript, Vite, React, and github pages.
+This is an online cv (portfolio) page: TypeScript, Vite, React, and Github Pages.
 
 ## Deployment
 
-Hosting on github pages without a custom domain demands setting `base` to the github repo name with proper slashes inside `vite.config.ts`:
+```sh
+git subtree push --prefix dist origin gh-pages
+```
+
+Hosting on Github Pages without a custom domain demands setting `base` to the github repo name with proper slashes inside `vite.config.ts`:
 
 ```ts
 import { defineConfig } from 'vite';
@@ -20,11 +24,11 @@ export default defineConfig({
 });
 ```
 
-Github pages with a custom domain may require `base` to be removed.
+Github Pages with a custom domain may require `base` to be removed.
 
 ## Warning About Astro
 
-I tried Astro instead of Vite previously, and Astro was messing up paths with `npm run build`. The only way to get it right was to edit the `dist` files manually after the build.
+I tried Astro instead of Vite previously, and Astro messed up resource paths with `npm run build`. The only way to get it right was to edit the `dist` files manually after the build.
 
 Whatever these frameworks generate, github pages `dist/index.html` should have absolute paths set as
 

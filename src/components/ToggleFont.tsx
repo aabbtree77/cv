@@ -15,7 +15,7 @@ const ToggleFont: React.FC = () => {
 
   return (
     <button
-      className="text-lg 2xl:text-2xl btn btn-outline btn-accent"
+      className="w-1/2 lg:w-1/3 mx-auto text-2xl btn btn-outline btn-accent"
       onClick={toggleFont}
     >
       Change Font
