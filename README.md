@@ -8,6 +8,7 @@ This is an online cv (portfolio) page: TypeScript, Vite, React, and Github Pages
 npm run build
 git add .
 git commit -m "minor update"
+git push origin main
 git subtree push --prefix dist origin gh-pages
 ```
 

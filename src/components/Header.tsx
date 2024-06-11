@@ -11,12 +11,12 @@ const Header: React.FC = () => {
           className="w-16 h-16 lg:w-32 lg:h-32 rounded-full"
         />
         <div className="flex flex-col">
-          <div className="flex flex-row items-center justify-evenly gap-2 xl:gap-4">
-            <p className="text-4xl font-bold">Ramūnas</p>
-            <p className="text-4xl font-bold">Girdziušas</p>
+          <div className="flex flex-col lg:flex-row items-center justify-evenly gap-2 xl:gap-4">
+            <p className="text-2xl lg:text-4xl font-bold">Ramūnas</p>
+            <p className="text-2xl lg:text-4xl font-bold">Girdziušas</p>
           </div>
 
-          <div className="text-2xl text-center">
+          <div className="text-base lg:text-2xl text-center">
             Software Engineer, D. Sc. (Tech.)
           </div>
         </div>

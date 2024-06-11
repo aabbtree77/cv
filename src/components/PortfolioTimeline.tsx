@@ -18,13 +18,13 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl timeline-end mb-10">
+        <div className="text-base lg:text-xl timeline-end mb-10">
           <time className="font-mono italic">2024</time>
-          <div className="text-2xl font-black">
+          <div className="text-xl lg:text-2xl font-black">
             Pet Project: Work in Progress
           </div>
           Developing a web service which would help teachers automate massive
-          student testing. Still in the early stages testing the waters. Marked{" "}
+          student testing. Still in the early stages testing the waters:{" "}
           <a
             className="link link-accent"
             href="https://github.com/ugurkellecioglu/next-14-lucia-auth-postgresql-drizzle-typescript-example/issues/1"
@@ -39,14 +39,14 @@ const PortfolioTimeline: React.FC = () => {
             SvelteKit
           </a>
           {", "}
-          and{" "}
+          or{" "}
           <a
             className="link link-accent"
             href="https://github.com/aabbtree77/session-auth-starter"
           >
-            Astro
+            Astro?
           </a>{" "}
-          as unreliable.
+          Neither, it will be a React SPA with Vite and a bit of Hono/Express.
         </div>
         <hr />
       </li>
@@ -66,9 +66,9 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl timeline-start md:text-end mb-10">
+        <div className="text-base lg:text-xl timeline-start md:text-end mb-10">
           <time className="font-mono italic">2024</time>
-          <div className="text-2xl font-black">
+          <div className="text-xl lg:text-2xl font-black">
             <a
               className="link link-accent"
               href="https://github.com/aabbtree77/law2"
@@ -105,9 +105,9 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl timeline-end mb-10">
+        <div className="text-base lg:text-xl timeline-end mb-10">
           <time className="font-mono italic">2023</time>
-          <div className="text-2xl font-black">
+          <div className="text-xl lg:text-2xl font-black">
             <a
               className="link link-accent"
               href="https://github.com/aabbtree77/miniguestlog"
@@ -147,9 +147,9 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl timeline-start md:text-end mb-10">
+        <div className="text-base lg:text-xl timeline-start md:text-end mb-10">
           <time className="font-mono italic">2022</time>
-          <div className="text-2xl font-black">
+          <div className="text-xl lg:text-2xl font-black">
             <a
               className="link link-accent"
               href="https://github.com/aabbtree77/esp32-vpn"
@@ -181,9 +181,9 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl timeline-end mb-10">
+        <div className="text-base lg:text-xl timeline-end mb-10">
           <time className="font-mono italic">2021</time>
-          <div className="text-2xl font-black">
+          <div className="text-xl lg:text-2xl font-black">
             <a
               className="link link-accent"
               href="https://github.com/aabbtree77/twinpeekz2"
@@ -213,9 +213,9 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl timeline-start md:text-end mb-10">
+        <div className="text-base lg:text-xl timeline-start md:text-end mb-10">
           <time className="font-mono italic">2020</time>
-          <div className="text-2xl font-black">
+          <div className="text-xl lg:text-2xl font-black">
             <a
               className="link link-accent"
               href="https://github.com/aabbtree77/adast"
@@ -245,9 +245,9 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl timeline-end mb-10">
+        <div className="text-base lg:text-xl timeline-end mb-10">
           <time className="font-mono italic">2018</time>
-          <div className="text-2xl font-black">
+          <div className="text-xl lg:text-2xl font-black">
             <a
               className="link link-accent"
               href="https://aabbtree77.github.io/shankland/shankland.html"
@@ -276,9 +276,9 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-2xl timeline-start md:text-end mb-10">
+        <div className="text-base lg:text-xl timeline-start md:text-end mb-10">
           <time className="font-mono italic">2013</time>
-          <div className="text-2xl font-black">
+          <div className="text-xl lg:text-2xl font-black">
             <a
               className="link link-accent"
               href="https://hal.archives-ouvertes.fr/hal-00723427"
