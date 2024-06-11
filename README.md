@@ -1,10 +1,8 @@
 ## Introduction
 
-This is my online cv (portfolio) page: TypeScript, Vite, React, and github pages.
+This is an online cv (portfolio) page: TypeScript, Vite, React, and github pages.
 
 ## Deployment
-
-Most of these React supporting metaframeworks seem to use absolute paths which may case some problems.
 
 Hosting on github pages without a custom domain demands setting `base` to the github repo name with proper slashes inside `vite.config.ts`:
 
@@ -28,16 +26,14 @@ Github pages with a custom domain may require `base` to be removed.
 
 I tried Astro instead of Vite previously, and Astro was messing up paths with `npm run build`. The only way to get it right was to edit the `dist` files manually after the build.
 
-Whatever these frameworks generate, for the github pages with no custom domain to work, `dist/index.html` should have absolute paths such as:
+Whatever these frameworks generate, github pages `dist/index.html` should have absolute paths set as
 
 ```html
 <script type="module" crossorigin src="/cv/assets/index-C4HptKlK.js"></script>
 <link rel="stylesheet" crossorigin href="/cv/assets/index-W54NxveC.css">
 ```
 
-Notice the forward slash and the repo name. There will also be Js files inside folders such as `assets` with relative paths such as `src:"assets/rg.jpg"` which seem to be correct. Absolute paths `/cv/assets/rg.jpg` should also work. 
-
-Vite gets it right automatically with `base`, but in the Astro "static" mode I was not able to get all the paths right by setting `site` and `base` inside astro.config.mjs alone. There are a lot of related closed github issues in Astro which are not helpful for hosting with github pages.
+Notice the forward slash and the repo name. There will also be Js files inside folders such as `assets` with relative paths `src:"assets/rg.jpg"` which seem to be correct. Absolute paths `/cv/assets/rg.jpg` should also work.
 
 ## References
 

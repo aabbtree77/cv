@@ -8,7 +8,7 @@ import Footer from "./Footer";
 const LandingPage: React.FC = () => {
   return (
     <div className="bg-neutral">
-      <div className="min-h-screen gap-4 lg:gap-24 lg:w-3/5 mx-auto flex flex-col items-center text-base-content">
+      <div className="gap-4 lg:gap-8 flex flex-col items-center text-gray-400">
         <Header />
         <DX />
         <Portfolio />

@@ -30,22 +30,21 @@ const PortfolioTimeline: React.FC = () => {
             href="https://github.com/ugurkellecioglu/next-14-lucia-auth-postgresql-drizzle-typescript-example/issues/1"
           >
             Next.js
-          </a>{" "}
-          and{" "}
+          </a>{", "}
           <a
             className="link link-accent"
             href="https://github.com/edwardspresume/sveltekit-lucia-auth-v3-example/issues/3"
           >
             SvelteKit
-          </a>{" "}
-          as unreliable. Released{" "}
+          </a>{", "}
+          and{" "}
           <a
             className="link link-accent"
             href="https://github.com/aabbtree77/session-auth-starter"
           >
-            a session-based authentication
+          Astro
           </a>{" "}
-          built with Astro.
+          as unreliable.
         </div>
         <hr />
       </li>

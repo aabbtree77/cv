@@ -3,26 +3,30 @@ import ToggleFont from "./ToggleFont";
 
 const Header: React.FC = () => {
   return (
-    <div className="w-full flex flex-col gap-4 mt-4 2xl:mt-16">
+    <div className="flex flex-col gap-4 mt-4 2xl:mt-16">
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center justify-items-center p-4">
         <img
           src="assets/rg.jpg"
           alt="Ramūnas Girdziušas"
           className="w-16 h-16 lg:w-32 lg:h-32 rounded-full"
         />
+        <div className="flex flex-col">
         <div className="flex flex-row items-center justify-items-evenly gap-2 xl:gap-4">
-          <p className="text-lg 2xl:text-4xl font-bold">Ramūnas</p>
-          <p className="text-lg 2xl:text-4xl font-bold">Girdziušas</p>
+          <p className="text-4xl font-bold">Ramūnas</p>
+          <p className="text-4xl font-bold">Girdziušas</p>
         </div>
+
+        <div className="text-2xl text-center">
+        Software Engineer, D. Sc. (Tech.)
+      </div>
+      </div>
 
         <div className="text-right">
           <ToggleFont />
         </div>
       </div>
 
-      <div className="text-2xl text-center">
-        Software Engineer, D. Sc. (Tech.)
-      </div>
+      
     </div>
   );
 };
