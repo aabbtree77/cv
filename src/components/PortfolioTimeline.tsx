@@ -37,8 +37,7 @@ const PortfolioTimeline: React.FC = () => {
             </a>)
           </div>
           A session-based user-password authentication which does not rely on any 3rd party services or auth libs.
-          Frontend: Vite, React, Tailwind, daisyUI. Backend: Hono, SQLite, Drizzle. Local tests so far. 
-          Hopefully will become a part of a useful service with a "Donate" button some day.
+          Frontend: Vite, React, Tailwind, daisyUI. Backend: Hono, SQLite, Drizzle. Local tests so far.
         </div>
         <hr />
       </li>
@@ -100,11 +99,12 @@ const PortfolioTimeline: React.FC = () => {
         <div className="text-base lg:text-xl timeline-end mb-10">
           <time className="font-mono italic">2023</time>
           <div className="text-xl lg:text-2xl font-black">
+          Pet Project:{" "} 
             <a
               className="link link-accent"
               href="https://github.com/aabbtree77/miniguestlog"
             >
-              Pet Project: Guest Log
+              Guest Log
             </a>
           </div>
           Wrote A MERN app to log geolocation of the last 50 visitors of my
@@ -176,11 +176,12 @@ const PortfolioTimeline: React.FC = () => {
         <div className="text-base lg:text-xl timeline-end mb-10">
           <time className="font-mono italic">2021</time>
           <div className="text-xl lg:text-2xl font-black">
+          Pet Project:{" "} 
             <a
               className="link link-accent"
               href="https://github.com/aabbtree77/twinpeekz2"
             >
-              Pet Project in 3D Graphics
+              Volumetric Sponza
             </a>
           </div>
           Implemented volumetric lighting in Go and Nim (forward rendering,
