@@ -32,7 +32,7 @@ Github Pages with a custom domain may require `base` to be removed.
 
 ## Warning About Astro
 
-I tried Astro instead of Vite previously, and Astro messed up resource paths with `npm run build`. The only way to get it right was to edit the `dist` files manually after the build.
+I tried Astro instead of Vite previously, but the resource paths were incorrect after `npm run build`. The only way to get it right was to edit `dist` files manually after the build.
 
 Whatever these frameworks generate, github pages `dist/index.html` should have absolute paths set as
 

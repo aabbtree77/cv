@@ -21,32 +21,25 @@ const PortfolioTimeline: React.FC = () => {
         <div className="text-base lg:text-xl timeline-end mb-10">
           <time className="font-mono italic">2024</time>
           <div className="text-xl lg:text-2xl font-black">
-            Pet Project: Work in Progress
+            Pet Project: Authentication Starter (
+            <a
+              className="link link-accent"
+              href="https://github.com/aabbtree77/auth-starter-frontend"
+            >
+              Frontend
+            </a>
+            , 
+            <a
+              className="link link-accent"
+              href="https://github.com/aabbtree77/auth-starter-backend"
+            >
+              Backend
+            </a>)
           </div>
-          Developing a web service which would help teachers automate massive
-          student testing. Still in the early stages testing the waters:{" "}
-          <a
-            className="link link-accent"
-            href="https://github.com/ugurkellecioglu/next-14-lucia-auth-postgresql-drizzle-typescript-example/issues/1"
-          >
-            Next.js
-          </a>
-          {", "}
-          <a
-            className="link link-accent"
-            href="https://github.com/edwardspresume/sveltekit-lucia-auth-v3-example/issues/3"
-          >
-            SvelteKit
-          </a>
-          {", "}
-          or{" "}
-          <a
-            className="link link-accent"
-            href="https://github.com/aabbtree77/session-auth-starter"
-          >
-            Astro?
-          </a>{" "}
-          Neither, it will be a React SPA with Vite and a bit of Hono/Express.
+          I have a goal to automate massive tedious activities, such as student testing.
+          For this purpose, I have released a CRUD authentication demo which will be a part of this program.
+          It is a session-based user-password authentication which does not rely on any 3rd party services or auth libs.
+          Frontend: Vite, React, Tailwind, daisyUI. Backend: Hono, SQLite, Drizzle.
         </div>
         <hr />
       </li>
@@ -289,7 +282,7 @@ const PortfolioTimeline: React.FC = () => {
           Optimization of the fluid flow which was implemented before me with
           OpenFOAM, CATIA, STAR CCM+ and ParaView, running on the ProActive PACA
           Grid cloud (INRIA) via the Scilab-to-Java bridge managed by Fabien
-          Viale. The optimization involved kriging and CMA-ES as the
+          Viale. It involved kriging and CMA-ES as the
           meta-optimizer of the expected multi-point improvement whose MC
           integration I sped up with a specialized unscented transform.
         </div>
