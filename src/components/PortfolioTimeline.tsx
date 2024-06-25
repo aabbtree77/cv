@@ -28,7 +28,7 @@ const PortfolioTimeline: React.FC = () => {
             >
               Frontend
             </a>
-            , 
+            ,{" "} 
             <a
               className="link link-accent"
               href="https://github.com/aabbtree77/auth-starter-backend"
@@ -36,10 +36,9 @@ const PortfolioTimeline: React.FC = () => {
               Backend
             </a>)
           </div>
-          I have a goal to automate massive tedious activities, such as student testing.
-          For this purpose, I have released a CRUD authentication demo which will be a part of this program.
-          It is a session-based user-password authentication which does not rely on any 3rd party services or auth libs.
-          Frontend: Vite, React, Tailwind, daisyUI. Backend: Hono, SQLite, Drizzle.
+          A session-based user-password authentication which does not rely on any 3rd party services or auth libs.
+          Frontend: Vite, React, Tailwind, daisyUI. Backend: Hono, SQLite, Drizzle. Local tests so far. 
+          Hopefully will become a part of a useful service with a "Donate" button some day.
         </div>
         <hr />
       </li>
