@@ -13,8 +13,11 @@ const DX: React.FC = () => {
         <br />
         <p>
           In the past: C (ATmega, avr-gcc), MicroPython (ESP32, MQTT, routers,
-          Linux), Go (golibp2p), C++ (OpenGL), Python (Matplotlib, PyTorch),
-          Matlab, Scilab, LaTeX.
+          Linux), Go (golibp2p), C++ (OpenGL).
+        </p>
+        <br />
+        <p>
+        More distant past: Python (Matplotlib, PyTorch), Matlab, Scilab, LaTeX, linear algebra, calculus.
         </p>
       </div>
     </div>
