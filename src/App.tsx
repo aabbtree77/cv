@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import DX from "./components/DX";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Details from "./components/Details";
 import Footer from "./components/Footer";
 import "./App.css";
 
@@ -13,6 +14,7 @@ function App() {
         <DX />
         <Portfolio />
         <Contact />
+        <Details />
         <Footer />
       </div>
     </div>

@@ -13,24 +13,6 @@ const Contact: React.FC = () => {
           <div className="max-lg:w-min">
             Viber (&ldquo;Ramūnas Girdziušas&rdquo;)
           </div>
-
-          <div>
-            <a
-              className="link link-accent"
-              href="https://github.com/aabbtree77?tab=repositories"
-            >
-              github.com/aabbtree77
-            </a>
-          </div>
-
-          <div>
-            <a
-              className="link link-accent"
-              href="https://aabbtree77.github.io/"
-            >
-              aabbtree77.github.io{" "}
-            </a>{" "}
-          </div>
         </div>
       </div>
     </div>
