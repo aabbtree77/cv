@@ -5,6 +5,7 @@ This is an online cv (portfolio) page: TypeScript, Vite, React, and Github Pages
 ## Deployment
 
 ```sh
+npm install
 npm run build
 git add .
 git commit -m "minor update"
