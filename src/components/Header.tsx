@@ -12,8 +12,8 @@ const Header: React.FC = () => {
         />
         <div className="flex flex-col">
           <div className="flex flex-col lg:flex-row items-center justify-evenly gap-2 xl:gap-4">
-            <p className="text-2xl lg:text-4xl font-bold">Ramūnas</p>
-            <p className="text-2xl lg:text-4xl font-bold">Girdziušas</p>
+            <p className="text-2xl lg:text-4xl font-bold">Ramunas</p>
+            <p className="text-2xl lg:text-4xl font-bold">Girdziusas</p>
           </div>
 
           <div className="text-base lg:text-2xl text-center">
