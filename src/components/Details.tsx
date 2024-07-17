@@ -31,7 +31,16 @@ const Contact: React.FC = () => {
               className="link link-accent"
               href="https://aabbtree77.github.io/"
             >
-              Blog{" "}
+              The Old Blog{" "}
+            </a>{" "}
+          </div>
+          
+          <div>
+            <a
+              className="link link-accent"
+              href="https://aabbtree77.github.io/blog/"
+            >
+              The New Blog{" "}
             </a>{" "}
           </div>
 
