@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
           <div>
             <a
               className="link link-accent"
-              href="https://aabbtree77.github.io/about/about.html"
+              href="https://aabbtree77.github.io/"
             >
               More Projects
             </a>
@@ -25,22 +25,13 @@ const Contact: React.FC = () => {
               Github
             </a>
           </div>
-
-          <div>
-            <a
-              className="link link-accent"
-              href="https://aabbtree77.github.io/"
-            >
-              The Old Blog{" "}
-            </a>{" "}
-          </div>
           
           <div>
             <a
               className="link link-accent"
               href="https://aabbtree77.github.io/blog/"
             >
-              The New Blog{" "}
+              Blog{" "}
             </a>{" "}
           </div>
 
