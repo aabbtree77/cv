@@ -1,6 +1,11 @@
-/* uncomment outline to debug CSS */
+/* src/index.css */
 
-/* set html, body, root if this is needed*/
+/* Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Uncomment to debug bounding boxes */
 
 /*
 
