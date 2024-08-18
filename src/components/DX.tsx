@@ -6,7 +6,7 @@ const DX: React.FC = () => {
       <div className="text-2xl lg:text-3xl font-bold text-center">Experience</div>
       <div className="text-base lg:text-xl text-justify">
         <p>
-          Recently: frontend/full-stack web. HTML, CSS,
+          Recently: frontend/full-stack webdev. HTML, CSS,
           JavaScript, TypeScript, React, Tailwind, Astro. A bit of: Git, Docker, SQL,
           MongoDB.
         </p>
