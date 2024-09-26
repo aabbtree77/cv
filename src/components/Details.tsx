@@ -29,9 +29,9 @@ const Contact: React.FC = () => {
           <div>
             <a
               className="link link-accent"
-              href="https://aabbtree77.github.io/blog/"
+              href="https://aabbtree77.github.io/tensors/"
             >
-              Blog{" "}
+              Algebra{" "}
             </a>{" "}
           </div>
 
