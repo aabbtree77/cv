@@ -16,7 +16,7 @@ const Popup = ({ imageSrc, link, message }: { imageSrc: string; link: string; me
       right-0
       w-[25vw] 
       h-[50vh]
-      transform transition-transform duration-1000 ease-linear
+      transform transition-transform duration-[2s] ease-linear
       ${isMounted ? 'translate-y-0' : 'translate-y-full'}
       z-50
       md:m-4
@@ -25,7 +25,8 @@ const Popup = ({ imageSrc, link, message }: { imageSrc: string; link: string; me
       right-0
      
     `}>
-      <a href={link} className="p-4 text-center font-medium text-accent">
+      <a href={link} target="_blank" 
+        rel="noopener noreferrer" className="p-4 text-center font-medium text-accent">
         {message}
       </a>
       <a 
