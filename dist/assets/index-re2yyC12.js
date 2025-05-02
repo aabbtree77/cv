@@ -42,7 +42,7 @@ Error generating stack: `+u.message+`
       right-0
       w-[25vw] 
       h-[50vh]
-      transform transition-transform duration-1000 ease-linear
+      transform transition-transform duration-[2s] ease-linear
       ${fe?"translate-y-0":"translate-y-full"}
       z-50
       md:m-4
@@ -50,4 +50,4 @@ Error generating stack: `+u.message+`
       overflow-hidden
       right-0
      
-    `,children:[h.jsx("a",{href:F,className:"p-4 text-center font-medium text-accent",children:m}),h.jsx("a",{href:F,target:"_blank",rel:"noopener noreferrer",className:"w-full h-full hover:opacity-90 transition-opacity",children:h.jsx("img",{src:j,alt:"Popup visual",className:"w-full h-full object-cover"})})]})};function Jf(){return h.jsx("div",{className:"bg-neutral",children:h.jsxs("div",{className:"mx-auto flex w-11/12 flex-col items-center gap-8 text-gray-400 2xl:w-3/5 2xl:gap-24",children:[h.jsx(Wf,{}),h.jsx($f,{}),h.jsx(Kf,{}),h.jsx(Gf,{}),h.jsx(Yf,{}),h.jsx(Xf,{}),h.jsx(Zf,{imageSrc:"assets/IronMike.png",link:"https://www.youtube.com/watch?v=Y183gJQ9yCY&t=20s&ab_channel=MMAMindset",message:"How can I help you?"})]})})}Bf.createRoot(document.getElementById("root")).render(h.jsx(Of.StrictMode,{children:h.jsx(Jf,{})}));
+    `,children:[h.jsx("a",{href:F,target:"_blank",rel:"noopener noreferrer",className:"p-4 text-center font-medium text-accent",children:m}),h.jsx("a",{href:F,target:"_blank",rel:"noopener noreferrer",className:"w-full h-full hover:opacity-90 transition-opacity",children:h.jsx("img",{src:j,alt:"Popup visual",className:"w-full h-full object-cover"})})]})};function Jf(){return h.jsx("div",{className:"bg-neutral",children:h.jsxs("div",{className:"mx-auto flex w-11/12 flex-col items-center gap-8 text-gray-400 2xl:w-3/5 2xl:gap-24",children:[h.jsx(Wf,{}),h.jsx($f,{}),h.jsx(Kf,{}),h.jsx(Gf,{}),h.jsx(Yf,{}),h.jsx(Xf,{}),h.jsx(Zf,{imageSrc:"assets/IronMike.png",link:"https://www.youtube.com/watch?v=Y183gJQ9yCY&t=20s&ab_channel=MMAMindset",message:"How can I help you?"})]})})}Bf.createRoot(document.getElementById("root")).render(h.jsx(Of.StrictMode,{children:h.jsx(Jf,{})}));
