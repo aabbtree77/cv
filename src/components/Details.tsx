@@ -13,6 +13,16 @@ const Contact: React.FC = () => {
               className="link link-accent"
               href="https://aabbtree77.github.io/"
             >
+              Main Page
+            </a>
+          </div>
+          
+
+          <div>
+            <a
+              className="link link-accent"
+              href="https://github.com/aabbtree77/aabbtree77-projects"
+            >
               More Projects
             </a>
           </div>
@@ -31,7 +41,7 @@ const Contact: React.FC = () => {
               className="link link-accent"
               href="https://aabbtree77.github.io/tensors/"
             >
-              Algebra{" "}
+              Blog{" "}
             </a>{" "}
           </div>
 

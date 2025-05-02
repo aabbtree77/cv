@@ -4,6 +4,8 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Details from "./components/Details";
 import Footer from "./components/Footer";
+import Popup from "./components/Popup";
+
 import "./App.css";
 
 function App() {
@@ -16,6 +18,11 @@ function App() {
         <Contact />
         <Details />
         <Footer />
+        <Popup
+     imageSrc="assets/IronMike.png"
+     link="https://www.youtube.com/watch?v=Y183gJQ9yCY&t=20s&ab_channel=MMAMindset"
+     message="How can I help you?"
+   />
       </div>
     </div>
   );

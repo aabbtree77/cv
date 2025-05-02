@@ -18,27 +18,7 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-base lg:text-xl timeline-end mb-10">
-          <time className="font-mono italic">2024</time>
-          <div className="text-xl lg:text-2xl font-black">
-            Pet Project: Authentication Starter (
-            <a
-              className="link link-accent"
-              href="https://github.com/aabbtree77/auth-starter-frontend"
-            >
-              Frontend
-            </a>
-            ,{" "} 
-            <a
-              className="link link-accent"
-              href="https://github.com/aabbtree77/auth-starter-backend"
-            >
-              Backend
-            </a>)
-          </div>
-          A session-based user-password authentication which does not rely on any 3rd party services or auth libs.
-          Frontend: Vite, React, Tailwind, daisyUI. Backend: Hono, SQLite, Drizzle. Local tests so far.
-        </div>
+        
         <hr />
       </li>
       <li>
@@ -96,31 +76,7 @@ const PortfolioTimeline: React.FC = () => {
             />
           </svg>
         </div>
-        <div className="text-base lg:text-xl timeline-end mb-10">
-          <time className="font-mono italic">2023</time>
-          <div className="text-xl lg:text-2xl font-black">
-          Pet Project:{" "} 
-            <a
-              className="link link-accent"
-              href="https://github.com/aabbtree77/miniguestlog"
-            >
-              Guest Log
-            </a>
-          </div>
-          Wrote A MERN app to log geolocation of the last 50 visitors of my
-          homepage{" "}
-          <a className="link link-accent" href="http://aabbtree77.github.io/">
-            aabbtree77.github.io
-          </a>{" "}
-          visible at{" "}
-          <a
-            className="link link-accent"
-            href="https://aabbtree77.github.io/miniguestlog/loadGuestsSpinner.html"
-          >
-            this link
-          </a>
-          . MongoDB Atlas, Render, Github Pages, ipify API, and geoip-lite API.
-        </div>
+        
         <hr />
       </li>
       <li>

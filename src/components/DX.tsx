@@ -4,20 +4,17 @@ const DX: React.FC = () => {
   return (
     <div className="container mx-auto flex flex-col gap-4 2xl:gap-8 lg:w-3/5">
       <div className="text-2xl lg:text-3xl font-bold text-center">Experience</div>
-      <div className="text-base lg:text-xl text-justify">
+      <div className="text-base lg:text-xl text-center">
         <p>
-          Recently: frontend/full-stack webdev. HTML, CSS,
-          JavaScript, TypeScript, React, Tailwind, Astro. A bit of: Git, Docker, SQL,
-          MongoDB.
+        2024 - Now: ChatGPT, DeepSeek, Grok.
         </p>
         <br />
         <p>
-          In the past: embedded software. C (ATmega, avr-gcc), MicroPython (ESP32, MQTT, routers,
-          Linux), Go (golibp2p), C++ (OpenGL).
+        2014 - 2024: avr-gcc, MQTT, golibp2p, OpenGL, git.
         </p>
         <br />
         <p>
-        More distant past: academic research in machine learning. Python, Matplotlib, PyTorch, Matlab, Scilab, LaTeX, linear algebra, calculus.
+        2000 - 2014: Matlab/Scilab/Python + LaTeX.
         </p>
       </div>
     </div>
