@@ -6,15 +6,15 @@ const DX: React.FC = () => {
       <div className="text-2xl lg:text-3xl font-bold text-center">Experience</div>
       <div className="text-base lg:text-xl text-center">
         <p>
-        2024 - Now: ChatGPT, DeepSeek, Grok.
+        2024 - Now: HTTPS, HTML, CSS, Js, Ts, React, MongoDB, SQL, Docker. 
         </p>
         <br />
         <p>
-        2014 - 2024: avr-gcc, MQTT, golibp2p, OpenGL, git.
+        2014 - 2024: C, ATmega, ESP32, MQTT, P2P, Go, Nim, OpenGL, Blender, git.
         </p>
         <br />
         <p>
-        2000 - 2014: Matlab/Scilab/Python + LaTeX.
+        2000 - 2014: Matlab, Scilab, Python, LaTeX, kriging, tensor algebra.
         </p>
       </div>
     </div>
